@@ -7,5 +7,12 @@
 echo "Patrick Gonzalez's CST336 Internet Programming";
 
 ?>
+
+<br /> <br />
+
+<h1>Labs</h1>
+
+<a href="labs/lab1/">Lab 1</a>
+
 </body>
 </html>
