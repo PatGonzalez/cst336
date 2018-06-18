@@ -1,0 +1,86 @@
+/*overal page style ///////////////////////*/
+body{
+    background-color:black;
+    color:gray;
+}
+
+header, nav, footer{
+        text-align: center;
+}
+
+/* header ///////////////////////////////*/
+h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 4em;
+    margin-bottom: 0px;
+}
+
+/*navigation bar style ///////////////////////*/
+nav a{
+    /*links within "nav" container */
+    padding:15px;
+    padding-bottom:4px;
+    font-size: 1.8em;
+    text-decoration: none; /* removes underline */
+    color: white; /* be default, links are blue*/
+}
+
+hr{
+    width:50%;
+}
+        
+nav a:hover { /*pseudo class*/
+    border-bottom: 2px orange solid;
+    font-size: 2em;
+    transition: .9s; /* transition effect */
+}
+
+nav a:active{
+    background-color: orange;
+}
+
+/*main body message style in index.html ////////////////*/
+#me, #welcomeText{
+    float:left;
+}
+
+/* footer style  //////////////////////////////////*/
+footer, #hr_footer, #csumb{
+    color:#B0A12E;
+    font-size:12px;
+    clear: left;
+}
+
+#hr_footer{
+    width:25%;
+}
+
+/*table style in about.html ///////////////////////*/
+table{
+    margin: 0px auto;
+}
+td{
+    padding-right:10px;
+    font-size: 1.3em;
+}
+
+td strong{
+    color: orange;
+}
+
+#table-header{
+    background-color: #351a00;
+}
+
+.table-row{
+    background-color: #753900;
+}
+
+/* list style in about.html ///////////*/
+ul{
+    text-align: left;
+    padding-left: 200px;
+}
+.hobby{
+    color: yellow;
+}
