@@ -35,7 +35,7 @@ nav a:hover { /*pseudo class*/
     transition: .9s; /* transition effect */
 }
 
-a.current-page{
+#current-page{
     background-color: orange;
 }
 
@@ -83,4 +83,10 @@ ul{
 }
 .hobby{
     color: yellow;
+}
+
+#googleforum{
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }

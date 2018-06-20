@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--CST 336 Homework 1
+By:Patrick Gonzalez
+6/18/18
+
+Requirements
+The main page provides a general overview of a the topic
+The remaining three pages should include more detailed information about a sub-topic. Paraphrase instead of copying the content from an external site
+An external CSS file with at least 20 CSS rules. 
+Hyperlinks to the sources where you obtained the information
+Use at least two HTML tags and two CSS properties NOT used in Lab 1. Include as part of your post the new tags and properties used.
+Validate your HTML code at https://validator.w3.org/. Include screenshots of each page HTML validation (without errors)
+Comments to at least two of your classmates
+-->
+
+<!-- This is the head -->
+<!-- All styles and javascript go inside the head -->
+    <head>
+        <meta charset="utf-8" />
+        <title> Clean Energy Technology</title>
+        
+	<!--	refers to the css styles folder -->
+       <link href="css/styles.css" rel="stylesheet" type="text/css" /> 
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+
+    </head>
+<!-- closing head -->
+
+    <!-- This is the body -->
+    <!-- This is where we place the content of our website -->
+    <body>
+		<header> 
+			<h1> Technology Used for Clean Energy  </h1>
+		</header>
+		
+		<hr>
+		
+		<br/>
+		<!--Navigation Bar	-->
+		<nav>
+			<a href="index.html" id="current-page">Home</a>
+			<a href="monostrips.html">Programmable Monostrips</a>
+			<a href="ai.html">AI</a>
+			<a href="solarroad.html">Solar Roadways</a>
+		</nav>
+        
+		<!--Main content of the home page-->
+		<main>
+			
+			<!--Home page image-->
+			<figure id="img">
+				<img src="img/Green-Earth.jpg" alt="Source - http://greenplanetenergy.co.uk/wp-content/uploads/2017/08/Green-Earth.jpg">
+			</figure>
+			
+			<br/><br/><br/>
+			
+			<!--Witten introduction of the topics being discussed-->
+			<div id="topic">
+				<p>
+				According to Christopher Helman in his article, 
+				<cite><abbr title="https://www.forbes.com/sites/christopherhelman/2016/06/28/how-much-electricity-does-it-take-to-run-the-internet/#674f575b1fff">Berkeley Lab: It Takes 70 Billion Kilowatt Hours A Year To Run The Internet</abbr></cite>,
+				at Forbes.com, the average person uses 200 kWh a year through their internet use which leads to about 300 pounds of carbon dioxide 
+				per year in total carbon footprint. Similar to any company or business module, the goal of a tech firm is to get their consumers to 
+				spend time using their electronics or apps. Although, the effect that computer scientist and programmers have on the environment can
+				have a positive impact. With <b>programmable monostrips</b>, you can monitor and control the amount of power used by all your electronics. 
+				The computing power behind <b><abbr title="Artificial Intelligence">AI</abbr></b> allows engineers to handle the massive amounts of data that renewable energy 
+				resources produce. In a world of concrete and asphalt, the <b>solar roadway</b> can collect a significant amount of renewable energy
+				and act as a form data transfer world. 
+				</p>
+			</div>
+		</main>
+        
+        
+        <!-- This is the footer -->
+        <!-- The footer goes inside the body but not always -->
+        <footer>
+            <hr id="hr_footer">
+                CST 336 Internet Programming. 2018&copy; Gonzalez<br />
+                <strong>Disclaimer:</strong> The information in this webpage is fictious.<br />
+                It is used for academic purposes only.
+                
+                <figure id="csumb">
+                    <img src="img/csumb_logo.png" alt="CSUMB Logo">
+                </figure>
+            
+        </footer>
+        <!-- closing footer -->
+        
+    </body>
+    <!-- closing body -->
+
+</html>
