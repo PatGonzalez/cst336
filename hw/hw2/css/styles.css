@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Shrikhand');
+
+body {
+background-color: black;
+background-image:url("../img/table.jpg");
+color: white;
+}
+
+#main{
+	background-image:url("../img/BK.png");
+	width:70px;
+    height:95px;
+	/* position:absolute; */
+	top:200px;
+	left:300px;
+	margin:0 auto;
+	font-family: 'Shrikhand', cursive;
+}
+
+input{
+	background: transparent;
+	outline: none;
+	border: none;
+	font-family: 'Shrikhand', cursive;
+	color: white;
+	cursor: pointer;
+	font-size: 1.5em;
+}
+
+#card1, #card2, #card3, #p1Points {
+	top:200px;
+	position:absolute;
+}
+
+#card1{
+	left:245px;
+}
+#card2{
+	left:352px;
+}
+#card3{
+	left:457px;
+}
+#p1Points{
+	left:562px;
+}
+
+#card4, #card5, #card6, #p2Points {
+	top:448px;
+	position:absolute;
+}
+
+#card4{
+	left:245px;
+}
+#card5{
+	left:352px;
+}
+#card6{
+	left:457px;
+}
+#p2Points{
+	left:562px;
+}
+
+#won{
+	top: 340px;
+	left:315px;
+	position: absolute;
+}
