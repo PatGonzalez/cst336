@@ -73,7 +73,7 @@ function twentyOne($card1,$card2,$card3,$card4,$card5,$card6){
 		}			
 	}
 	echo "<div id='p1Points'>";
- 	echo "<h2> $p1total </h2>"; 
+ 	echo "<h2> Player 1 = $p1total </h2>"; 
 	echo "</div>";
 	
 	for($i=4;$i<7;$i++){
@@ -94,7 +94,7 @@ function twentyOne($card1,$card2,$card3,$card4,$card5,$card6){
 		}			
 	}
 	echo "<div id='p2Points'>";
-	echo "<h2> $p2total </h2>";
+	echo "<h2> Player 2 = $p2total </h2>";
 	echo "</div>";
 	
 	whoWon($p1total,$p2total);
