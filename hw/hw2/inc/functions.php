@@ -57,8 +57,8 @@ function twentyOne($card1,$card2,$card3,$card4,$card5,$card6){
 	$p2total=0;
 	for($i=1;$i<4;$i++){
 		for($k=2;$k<11;$k++){
-			if(${"card".$i}['face'] === "$k"){
-				$p1total = $p1total+$k;
+			if(${"card".$i}['face'] == $k){
+				$p1total += $k;
 			}
 		} 
 		switch(${"card".$i}['face']){
@@ -73,13 +73,13 @@ function twentyOne($card1,$card2,$card3,$card4,$card5,$card6){
 		}			
 	}
 	echo "<div id='p1Points'>";
- 	echo "<h2> Player 1 = $p1total </h2>"; 
+ 	echo "<h2>Player 1:<br/>$p1total </h2>"; 
 	echo "</div>";
 	
 	for($i=4;$i<7;$i++){
 		for($k=2;$k<11;$k++){
-			if(${"card".$i}['face'] === "$k"){
-				$p2total = $p2total+$k;
+			if(${"card".$i}['face'] == $k){
+				$p2total += $k;
 			}
 		} 
 		switch(${"card".$i}['face']){
@@ -94,7 +94,7 @@ function twentyOne($card1,$card2,$card3,$card4,$card5,$card6){
 		}			
 	}
 	echo "<div id='p2Points'>";
-	echo "<h2> Player 2 = $p2total </h2>";
+	echo "<h2>PLayer 2:<br/>$p2total </h2>";
 	echo "</div>";
 	
 	whoWon($p1total,$p2total);

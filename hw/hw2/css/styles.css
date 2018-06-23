@@ -1,20 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Shrikhand');
 
 body {
-background-color: black;
-background-image:url("../img/table.jpg");
-color: white;
+	background-color: black;
+	background-image:url("../img/table.jpg");
+	color: white;
 }
 
 #main{
 	background-image:url("../img/BK.png");
 	width:70px;
     height:95px;
-	/* position:absolute; */
 	top:200px;
 	left:300px;
 	margin:0 auto;
 	font-family: 'Shrikhand', cursive;
+	background-color: black;
 }
 
 input{
