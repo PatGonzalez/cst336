@@ -2,7 +2,8 @@
         opacity:0.9;
         width:100%;
         text-align:center;
-        color:black;
+        color:yellow;
+        background-color: grey;
     }
     
     input {
