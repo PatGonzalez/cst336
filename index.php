@@ -27,6 +27,8 @@ echo "Patrick Gonzalez's CST336 Internet Programming";
 <a href="hw/hw1/">Hw 1</a>
 <br/>
 <a href="hw/hw2/">Hw 2</a>
+<br/>
+<a href="hw/hw3/">Hw 3</a>
 
 </body>
 </html>

@@ -5,17 +5,57 @@
 <?php
     include 'functions.php';
     
-    ///Check to see if the form is submitted
+    // Start the seesion in any php file where you will be using session
+    session_start();
+    
+    // Create an array in the session to hold our cart items
+    if(!isset($_SESSION['cart'])){
+        $_SESSION['cart'] = array();
+    }
+    
+     ///Check to see if the form is submitted
     if(isset($_GET['query'])){
         
         //Get access to our API function
         include 'wmapi.php';
         $items = getProducts($_GET['query']);
-        print_r($items);
+        // print_r($items);
         // echo "<br><br><br>";
         // echo "You searched for: ".$_GET['query'];
      }
+    
+    
+    // Check to see if an item has been added to the cart
+    if(isset($_POST['itemName'])){
+        // $_SESSION['cart'] = $_POST['itemName'];
+        
+        // Creat an array to hold an item's properties
+        $newItem=array();
+        $newItem['name']=$_POST['itemName'];
+        $newItem['id']=$_POST['itemId'];
+        $newItem['price']=$_POST['itemPrice'];
+        $newItem['image']=$_POST['itemImage'];
+        
+        // CHeck to see if other items with this is are in the array
+        // If so, this item isnt new. Only update quantity
+        // Must be passed by reference so that each item can be updated!
+        foreach($_SESSION['cart'] as &$item){
+            if($newItem['id'] == $item['id']){
+                $item['quantity']+=1;
+                $found = true;
+            }
+        }
+        
+        // else add it to array
+        if($found != true){
+            $newItem['quantity']=1;
+            // Storing the item array in the cart array
+            array_push($_SESSION['cart'], $newItem);  //$_POST['itemName']); //Old version of storing items to the array
+        }
+    }
 ?>
+
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -39,7 +79,9 @@
                     </div>
                     <ul class='nav navbar-nav'>
                         <li><a href='index.php'>Home</a></li>
-                        <li><a href='scart.php'>Cart</a></li>
+                        <li><a href='scart.php'>   <!-- Cart</a></li> -->
+                        <span class='glyphicon glyphicon-shopping-cart' aria-hidden='true'></span>
+                        Cart: <?php displayCartCount(); ?> </a></li>
                     </ul>
                 </div>
             </nav>

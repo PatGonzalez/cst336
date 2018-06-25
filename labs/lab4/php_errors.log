@@ -40,3 +40,19 @@
 [24-Jun-2018 00:21:33 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/cst336/labs/lab4/scart/functions.php on line 2
 [24-Jun-2018 00:21:33 UTC] PHP Stack trace:
 [24-Jun-2018 00:21:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/scart/index.php:0
+[24-Jun-2018 22:16:27 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/cst336/labs/lab4/scart/functions.php on line 43
+[24-Jun-2018 22:16:27 UTC] PHP Stack trace:
+[24-Jun-2018 22:16:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/scart/scart.php:0
+[24-Jun-2018 22:16:27 UTC] PHP   2. displayCart() /home/ubuntu/workspace/cst336/labs/lab4/scart/scart.php:10
+[24-Jun-2018 22:16:27 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/cst336/labs/lab4/scart/functions.php on line 44
+[24-Jun-2018 22:16:27 UTC] PHP Stack trace:
+[24-Jun-2018 22:16:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/scart/scart.php:0
+[24-Jun-2018 22:16:27 UTC] PHP   2. displayCart() /home/ubuntu/workspace/cst336/labs/lab4/scart/scart.php:10
+[24-Jun-2018 22:16:27 UTC] PHP Warning:  Illegal string offset 'image' in /home/ubuntu/workspace/cst336/labs/lab4/scart/functions.php on line 45
+[24-Jun-2018 22:16:27 UTC] PHP Stack trace:
+[24-Jun-2018 22:16:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/scart/scart.php:0
+[24-Jun-2018 22:16:27 UTC] PHP   2. displayCart() /home/ubuntu/workspace/cst336/labs/lab4/scart/scart.php:10
+[24-Jun-2018 22:16:27 UTC] PHP Warning:  Illegal string offset 'id' in /home/ubuntu/workspace/cst336/labs/lab4/scart/functions.php on line 46
+[24-Jun-2018 22:16:27 UTC] PHP Stack trace:
+[24-Jun-2018 22:16:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/scart/scart.php:0
+[24-Jun-2018 22:16:27 UTC] PHP   2. displayCart() /home/ubuntu/workspace/cst336/labs/lab4/scart/scart.php:10
