@@ -4,3 +4,6 @@
 [23-Jun-2018 19:55:25 UTC] PHP Stack trace:
 [23-Jun-2018 19:55:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
 [23-Jun-2018 21:24:12 UTC] PHP Parse error:  syntax error, unexpected 'for' (T_FOR), expecting ',' or ';' in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 86
+[27-Jun-2018 20:19:23 UTC] PHP Fatal error:  Call to undefined function ampty() in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 10
+[27-Jun-2018 20:19:23 UTC] PHP Stack trace:
+[27-Jun-2018 20:19:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0

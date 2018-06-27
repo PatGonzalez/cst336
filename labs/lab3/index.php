@@ -7,11 +7,11 @@ Patrick Gonzalez
 	$backgroundImage = "img/sea.jpg";
 	
 	// API call goes here
-	if(empty($_GET['keyword'])){ //<!--Validate that the user types a keyword or selects a category from the dropdown menu, otherwise, do not display the carousel.-->
+	if(empty($_GET['keyword']) && empty($_GET['category'])){ //<!--Validate that the user types a keyword or selects a category from the dropdown menu, otherwise, do not display the carousel.-->
 	    echo "<br/><br/>";
 	    echo "<strong>! Please enter a keyword or select a category !</strong>";
 	}
-	elseif(isset($_GET['keyword'])){
+	elseif(empty($_GET['category'])){
 	    echo "You searched for: ".$_GET['keyword'];
 	    
 	   // <!-- get the results of our Pixabay image search
@@ -23,6 +23,11 @@ Patrick Gonzalez
 	   // print_r($imageURLs);
 	   
 	   //  set the $backgroundImage with a random image from the images we collected.
+	   $backgroundImage = $imageURLs[array_rand($imageURLs)];
+	}elseif(empty($_GET['keyword'])){
+	    echo "You searched for: ".$_GET['category'];
+	    include 'api/pixabayAPI.php';
+	    $imageURLs = getImageURLs($_GET['category'], $_GET['layout']);
 	   $backgroundImage = $imageURLs[array_rand($imageURLs)];
 	}
 ?>
@@ -120,7 +125,7 @@ Patrick Gonzalez
 		<!-- HTML form goes here -->
 		<!--This form is how the user will query the Pixabay API to collect the images for the slideshow.-->
 		<form>
-		      <input type="text" name="keyword" placeholder="Keyword">
+		      <input type="text" name="keyword" placeholder="Keyword" value="<?=$_GET['keyword']?>"/>
 		      
 		      <br/>
 		      <!-- two radio buttons for users to select the images layout, either Vertical or Horizontal. -->
@@ -135,16 +140,16 @@ Patrick Gonzalez
 		      <br/>
 		      <!-- dropdown menu with at least five different categories to search,
 		           If a category is selected, it should search for it, otherwise, it should search for the keyword typed.-->
-		      <select name="keyword">
+		      <select name="category">
 		          <option value="">Select One</option>
 		          <option value="desert">Desert</option>
-		          <option>Flowers</option>
-		          <option>Ocean</option>
-		          <option>Fish</option>
+		          <option value="flowers">Flowers</option>
+		          <option value="ocean">Ocean</option>
+		          <option value="fish">Fish</option>
 		      </select>
 		      
 		      <br/><br/><br/>
-		      <input type="submit" value="Submit"/>
+		      <input type="submit" value="Search"/>
 		</form>
 		<!-- link both the CSS and JS libraries for Bootstrap.-->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

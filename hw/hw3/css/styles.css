@@ -1,0 +1,18 @@
+body{
+    background-image:url("../img/music-background.jpg");
+    width: 100%;
+	background-position: right;
+	background-repeat: repeat-y;
+	
+	font-family: 'Concert One', cursive;
+	color: black;
+	text-align: left;
+	font-size: 20px;
+	text-shadow: 0.5px 0.5px 1px red;
+	
+
+}
+
+/*#infoFname, #infoLname, #infoGenre, #infoHow, #infoType{*/
+
+/*}*/
