@@ -1,94 +1,44 @@
 <?php
-    // function displaySubmission(){
-    //     foreach($_SESSION['music']){
-            
-    //     }
-    // }
-    function displayResults(){
-        global $info; 
-        
-        if(isset($info)){
-            foreach($info as $surveyInfo){
-                $infoFname = $info['fName'];
-                $infoLname = $info['lName'];
-                $infoGenre = $info['genre'];
-                $infoType = $info['infoType'];
-                $infoHow = $info['infoHow'];
-            }
-        }
-        print_r($surveyInfo);
-        
-        // Check to see if there is information already collected from the survey
-        // if(isset($_SESSION['muisc'])){
-        //     foreach($_SESSION['muisc'] as $surveyInfo){
-        //         $infoFname = $surveyInfo['Fname'];
-        //         $infoLname = $surveyInfo['Lname'];
-        //         $infoGenre = $surveyInfo['Genre'];
-        //         $infoType = $surveyInfo['Type'];
-        //         $infoHow = $surveyInfo['How'];
-                
-        //         print_r($surveyInfo);
-        //     }
-        // }
-    }
-    function displaySurvey(){
-        
-        
-        // THe actual survey forum code
-        echo '<form>';
-            echo '<br/><br/>';
-            //<!--collect name-->
-            echo '<label for="infoFname">First Name:</label>';
-            echo '<input id="infoFname" type="text" name="infoFname" placeholder="First Name">';
-            echo '<label for="infoLname">Last Name:</label>';
-            echo '<input id="infoLname" type="text" name="infoLname">';
-            
-            echo '<br/><br/>';
-            //<!--Favorite music genre-->
-            echo '<fieldset>';
-                echo '<legend>Favrite Music Genre:</legend>';
-                echo '<input id="pop" type="radio" name="infoGenre" value="pop">';
-                echo '<label for="pop">Pop</label><br>';
-                
-                echo '<input id="rock" type="radio" name="infoGenre" value="rock">';
-                echo '<label for="rock">Rock</label><br>';
-                
-                echo '<input id="edm" type="radio" name="infoGenre" value="edm">';
-                echo '<label for="edm">EDM</label><br>';
-                
-                echo '<input id="country" type="radio" name="infoGenre" value="country">';
-                echo '<label for="country">Country</label><br>';
-            echo '</fieldset>';
-            
-            echo '<br/><br/>';
-            //<!--Style of listener-->
-            echo '<label for="infoType">What type of listener are you?<br/>Active=Dancer / Passive=Chill / Both: </label>';
-            echo '<select id="infoType" name="select">';
-               echo ' <option value="1">Active</option>';
-               echo ' <option value="2">Passive</option>';
-               echo ' <option value="3">Both</option>';
-            echo '</select>';
-            
-            echo '<br/><br/>';
-            //<!--How do you listen to music-->
-            echo '<fieldset>';
-                echo '<legend>How do you listen to muisc?</legend>';
-                echo '<input id="fm" type="checkbox" name"infoHow" value="fm">';
-                echo '<label for="fm">FM Radio</label><br>';
-                
-               echo ' <input id="intR" type="checkbox" name"infoHow" value="intR">';
-                echo '<label for="intR">Internet Radio</label><br>';
-                
-               echo ' <input id="buy" type="checkbox" name"infoHow" value="buy">';
-               echo ' <label for="buy">Buy Cds or Mps</label><br>';
-                
-               echo ' <input id="tor" type="checkbox" name"infoHow" value="tor">';
-               echo ' <label for="tor">Torrent</label><br>';
-            echo '</fieldset>';
-            
-            echo '<br/><br/>';
-            //<!--SUbmit-->
-            echo '<input type="submit" value"Submit"/>';
-        echo '</form>';
-    }
+   function displayResults(){
+      
+      if($_GET['infoFname'] != ""){
+         echo "Hello " .$_GET['infoFname']. ",";
+      }
+      
+      switch($_GET['infoGenre']){
+         case "pop":
+               echo "<p>Did you know that The Chainsmokers will be playing at the <br/>
+                     Hollywood Palladium in Hollywood, CA on Tue, Jul 24, 2018 at 8:00 PM.</p>";
+                     
+               if($_GET['infoType']== "Active" or $_GET['infoType'] == "Both"){
+                  echo "This might be your chance to dance the night away!";
+               }
+               break;
+         case "rock":
+               echo "<p>Did you know that Imagine Dragons will be playing at <br/>
+                     The Forum Los Angeles in Inglewood, CA on Sat, Jul 21, 2018 at 7:00 PM.</p>";
+                     
+               if($_GET['infoType']== "Active" or $_GET['infoType'] == "Both"){
+                  echo "This might be your chance to rock out!";
+               }
+               break;
+         case "edm":
+               echo "<p>Did you know that Zedd  will be playing at the <br/>
+                     Los Angeles State Historic Park in Los Angeles, CA on Tue, Jul 03, 2018 at 5:00 PM.</p>";
+                     
+               if($_GET['infoType']== "Active" or $_GET['infoType'] == "Both"){
+                  echo "This might be your chance to dance the night away!";
+               }
+               break;
+         case "country":
+               echo "<p>Did you know that Tim McGraw and Faith Hill will be playing at the <br/>
+                     STAPLES Center in Los Angeles, CA on Tue, Sat, Jul 21, 2018 at 7:30 PM.</p>";
+                     
+               if($_GET['infoType']== "Active" or $_GET['infoType'] == "Both"){
+                  echo "Better go and dust off those boots!";
+               }
+               break;
+      }
+       
+   }
 ?>
