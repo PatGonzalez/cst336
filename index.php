@@ -20,6 +20,8 @@ echo "Patrick Gonzalez's CST336 Internet Programming";
 <a href="labs/lab3/">Lab 3</a>
 <br/>
 <a href="labs/lab4/scart">Lab 4</a>
+<br/>
+<a href="labs/lab5">Lab 5</a>
 
 <!--Homework-->
 <h1>Homework</h1>
@@ -29,6 +31,7 @@ echo "Patrick Gonzalez's CST336 Internet Programming";
 <a href="hw/hw2/">Hw 2</a>
 <br/>
 <a href="hw/hw3/">Hw 3</a>
+
 
 </body>
 </html>
