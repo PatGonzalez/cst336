@@ -7,3 +7,207 @@
 [27-Jun-2018 20:19:23 UTC] PHP Fatal error:  Call to undefined function ampty() in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 10
 [27-Jun-2018 20:19:23 UTC] PHP Stack trace:
 [27-Jun-2018 20:19:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[06-Jul-2018 22:48:23 UTC] PHP Warning:  include(../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 9
+[06-Jul-2018 22:48:23 UTC] PHP Stack trace:
+[06-Jul-2018 22:48:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/index.php:0
+[06-Jul-2018 22:48:23 UTC] PHP Warning:  include(): Failed opening '../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 9
+[06-Jul-2018 22:48:23 UTC] PHP Stack trace:
+[06-Jul-2018 22:48:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/index.php:0
+[06-Jul-2018 22:48:23 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 10
+[06-Jul-2018 22:48:23 UTC] PHP Stack trace:
+[06-Jul-2018 22:48:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/index.php:0
+[06-Jul-2018 23:02:46 UTC] PHP Warning:  include(../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 9
+[06-Jul-2018 23:02:46 UTC] PHP Stack trace:
+[06-Jul-2018 23:02:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/index.php:0
+[06-Jul-2018 23:02:46 UTC] PHP Warning:  include(): Failed opening '../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 9
+[06-Jul-2018 23:02:46 UTC] PHP Stack trace:
+[06-Jul-2018 23:02:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/index.php:0
+[06-Jul-2018 23:02:46 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 10
+[06-Jul-2018 23:02:46 UTC] PHP Stack trace:
+[06-Jul-2018 23:02:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/index.php:0
+[06-Jul-2018 23:03:00 UTC] PHP Warning:  include(/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 9
+[06-Jul-2018 23:03:00 UTC] PHP Stack trace:
+[06-Jul-2018 23:03:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/index.php:0
+[06-Jul-2018 23:03:00 UTC] PHP Warning:  include(): Failed opening '/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 9
+[06-Jul-2018 23:03:00 UTC] PHP Stack trace:
+[06-Jul-2018 23:03:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/index.php:0
+[06-Jul-2018 23:03:00 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 10
+[06-Jul-2018 23:03:00 UTC] PHP Stack trace:
+[06-Jul-2018 23:03:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/index.php:0
+[06-Jul-2018 23:22:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/cst336/labs/lab5/index.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab5/index.php(19): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/lab5/index.php(57): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 19
+[06-Jul-2018 23:30:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/cst336/labs/lab5/index.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab5/index.php(19): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/lab5/index.php(57): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 19
+[06-Jul-2018 23:33:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/cst336/labs/lab5/index.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab5/index.php(19): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/lab5/index.php(57): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 19
+[06-Jul-2018 23:35:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/cst336/labs/lab5/index.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab5/index.php(20): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/lab5/index.php(58): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 20
+[06-Jul-2018 23:36:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/cst336/labs/lab5/index.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab5/index.php(20): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/lab5/index.php(58): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 20
+[07-Jul-2018 00:44:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/cst336/labs/lab5/index.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab5/index.php(20): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/lab5/index.php(66): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 20
+[07-Jul-2018 01:02:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst336/labs/lab5/index.php:52
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab5/index.php(52): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst336/labs/lab5/index.php(104): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 52
+[07-Jul-2018 01:03:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst336/labs/lab5/index.php:52
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab5/index.php(52): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst336/labs/lab5/index.php(104): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 52
+[07-Jul-2018 01:06:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst336/labs/lab5/index.php:52
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab5/index.php(52): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst336/labs/lab5/index.php(104): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 52
+[07-Jul-2018 01:07:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst336/labs/lab5/index.php:52
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab5/index.php(52): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst336/labs/lab5/index.php(104): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 52
+[07-Jul-2018 01:07:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst336/labs/lab5/index.php:52
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab5/index.php(52): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst336/labs/lab5/index.php(104): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 52
+[07-Jul-2018 01:07:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst336/labs/lab5/index.php:52
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab5/index.php(52): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst336/labs/lab5/index.php(104): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 52
+[07-Jul-2018 01:07:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/cst336/labs/lab5/index.php:52
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab5/index.php(52): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/labs/lab5/index.php(104): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 52
+[07-Jul-2018 01:08:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/cst336/labs/lab5/index.php:52
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab5/index.php(52): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/labs/lab5/index.php(104): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 52
+[07-Jul-2018 01:08:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/cst336/labs/lab5/index.php:52
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab5/index.php(52): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/labs/lab5/index.php(104): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 52
+[07-Jul-2018 01:08:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/cst336/labs/lab5/index.php:52
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab5/index.php(52): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/labs/lab5/index.php(104): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 52
+[07-Jul-2018 01:19:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst336/labs/lab5/index.php:52
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab5/index.php(52): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst336/labs/lab5/index.php(104): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 52
+[07-Jul-2018 01:38:16 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 74
+[07-Jul-2018 01:39:24 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 74
+[07-Jul-2018 01:39:37 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 74
+[07-Jul-2018 01:44:08 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 74
+[07-Jul-2018 01:44:58 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 74
+[07-Jul-2018 03:31:53 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 86
+[07-Jul-2018 03:33:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/cst336/labs/lab5/index.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab5/index.php(20): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/lab5/index.php(115): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 20
+[07-Jul-2018 03:36:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/cst336/labs/lab5/index.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab5/index.php(19): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/lab5/index.php(112): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 19
+[07-Jul-2018 03:41:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/cst336/labs/lab5/index.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab5/index.php(20): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/lab5/index.php(113): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 20
+[07-Jul-2018 03:44:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/cst336/labs/lab5/index.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab5/index.php(20): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/lab5/index.php(113): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 20
+[07-Jul-2018 04:01:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/cst336/labs/lab5/index.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab5/index.php(20): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/lab5/index.php(113): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 20
+[07-Jul-2018 04:10:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/cst336/labs/lab5/index.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab5/index.php(20): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/lab5/index.php(113): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 20
+[07-Jul-2018 04:10:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/cst336/labs/lab5/index.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab5/index.php(20): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/lab5/index.php(113): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 20
+[07-Jul-2018 04:12:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/cst336/labs/lab5/index.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab5/index.php(20): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/lab5/index.php(113): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 20
+[07-Jul-2018 04:16:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/cst336/labs/lab5/index.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab5/index.php(32): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/lab5/index.php(125): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 32
+[07-Jul-2018 04:16:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/cst336/labs/lab5/index.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab5/index.php(32): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/lab5/index.php(125): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 32
+[07-Jul-2018 04:44:03 UTC] PHP Fatal error:  Undefined class constant 'FETCH_ASSC' in /home/ubuntu/workspace/cst336/labs/lab5/purchaseHistory.php on line 21
+[07-Jul-2018 04:44:03 UTC] PHP Stack trace:
+[07-Jul-2018 04:44:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/purchaseHistory.php:0
+[07-Jul-2018 04:45:17 UTC] PHP Fatal error:  Undefined class constant 'FETCH_ASSC' in /home/ubuntu/workspace/cst336/labs/lab5/purchaseHistory.php on line 21
+[07-Jul-2018 04:45:17 UTC] PHP Stack trace:
+[07-Jul-2018 04:45:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/purchaseHistory.php:0
+[07-Jul-2018 04:45:34 UTC] PHP Fatal error:  Undefined class constant 'FETCH_ASSC' in /home/ubuntu/workspace/cst336/labs/lab5/purchaseHistory.php on line 21
+[07-Jul-2018 04:45:34 UTC] PHP Stack trace:
+[07-Jul-2018 04:45:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/purchaseHistory.php:0

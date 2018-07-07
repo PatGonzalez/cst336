@@ -1,0 +1,12 @@
+body{
+    text-align: center;
+}
+footer, #hr_footer, #csumb{
+    color:#B0A12E;
+    font-size:12px;
+    clear: left;
+}
+
+#hr_footer{
+    width:25%;
+}
