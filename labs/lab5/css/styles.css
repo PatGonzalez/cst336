@@ -13,7 +13,7 @@ h1{
     text-align: center;
 }
 
-form{
+form, #results{
     text-align: center;
     width: 100%;
     padding: 12px 20px;

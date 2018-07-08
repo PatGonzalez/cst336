@@ -136,7 +136,10 @@ by Patrick Gonzalez
             <br/>
         </div>
         
+        <div id="results">
         <?= displaySearchResults() ?>
+        </div>
+        
         
         <!-- This is the footer -->
         <!-- The footer goes inside the body but not always -->
