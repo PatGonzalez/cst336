@@ -6,6 +6,8 @@ by Patrick Gonzalez
 -->
 
 <?php
+
+    	
     include 'dbConnection.php';
     
     $conn = getDatabaseConnection("ottermart");
@@ -95,7 +97,12 @@ by Patrick Gonzalez
 <!-- All styles and javascript go inside the head -->
     <head>
         <title>Ottermart Product Search</title>
-        <link href="css/styles.css" rel="stylesheet" type="text/css"  />        
+        <link href="css/styles.css" rel="stylesheet" type="text/css"  />     
+        
+        <!--Font style-->
+        <link href="https://fonts.googleapis.com/css?family=Passion+One" rel="stylesheet">
+        
+        <!--<img src="img/storeShelf.jpg">-->
     </head>
 <!-- closing head -->
 
@@ -103,7 +110,7 @@ by Patrick Gonzalez
     <!-- This is where we place the content of our website -->
     <body>
         
-        <div>
+        <div id="form">
             <h1>Ottermart Product Search</h1>
             
             <form>
@@ -124,12 +131,10 @@ by Patrick Gonzalez
                 <input type="radio" name="orderBy" value="name" /> Name
                 
                 <br/> <br/>
-                <input type="submit" value="Search" name="searchForm" />
+                <input type="submit" value="Search" name="searchForm" class="button" />
             </form>
             <br/>
         </div>
-        
-        <hr>
         
         <?= displaySearchResults() ?>
         

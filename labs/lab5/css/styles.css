@@ -1,10 +1,36 @@
 body{
+	background-image:url("../img/storeShelf.jpg");
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+h1{
+    font-family: 'Passion One', cursive;
+    background-color: #af9f13;
+    box-shadow:  10px 10px 5px grey;
+    color: #134faf;
+    font-size: 50px;
     text-align: center;
 }
+
+form{
+    text-align: center;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    background-color: white;
+    color: #134faf;
+}
+
+.button{
+    background-color:  #af9f13;
+}
 footer, #hr_footer, #csumb{
-    color:#B0A12E;
+    color: #134faf;
     font-size:12px;
     clear: left;
+    text-align: center;
 }
 
 #hr_footer{
