@@ -211,3 +211,150 @@ Stack trace:
 [07-Jul-2018 04:45:34 UTC] PHP Fatal error:  Undefined class constant 'FETCH_ASSC' in /home/ubuntu/workspace/cst336/labs/lab5/purchaseHistory.php on line 21
 [07-Jul-2018 04:45:34 UTC] PHP Stack trace:
 [07-Jul-2018 04:45:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/purchaseHistory.php:0
+[08-Jul-2018 23:10:51 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/labs/lab6/loginProcess.php on line 5
+[08-Jul-2018 23:10:51 UTC] PHP Stack trace:
+[08-Jul-2018 23:10:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/loginProcess.php:0
+[08-Jul-2018 23:10:51 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/labs/lab6/loginProcess.php on line 5
+[08-Jul-2018 23:10:51 UTC] PHP Stack trace:
+[08-Jul-2018 23:10:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/loginProcess.php:0
+[08-Jul-2018 23:10:51 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/labs/lab6/loginProcess.php on line 7
+[08-Jul-2018 23:10:51 UTC] PHP Stack trace:
+[08-Jul-2018 23:10:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/loginProcess.php:0
+[09-Jul-2018 00:42:25 UTC] PHP Fatal error:  Call to undefined function displayAllProducts() in /home/ubuntu/workspace/cst336/labs/lab6/loginProcess.php on line 42
+[09-Jul-2018 00:42:25 UTC] PHP Stack trace:
+[09-Jul-2018 00:42:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/loginProcess.php:0
+[09-Jul-2018 00:45:27 UTC] PHP Fatal error:  Call to undefined function displayAllProducts() in /home/ubuntu/workspace/cst336/labs/lab6/loginProcess.php on line 42
+[09-Jul-2018 00:45:27 UTC] PHP Stack trace:
+[09-Jul-2018 00:45:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/loginProcess.php:0
+[09-Jul-2018 00:47:52 UTC] PHP Fatal error:  Call to undefined function displayAllProducts() in /home/ubuntu/workspace/cst336/labs/lab6/loginProcess.php on line 40
+[09-Jul-2018 00:47:52 UTC] PHP Stack trace:
+[09-Jul-2018 00:47:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/loginProcess.php:0
+[09-Jul-2018 00:55:50 UTC] PHP Fatal error:  Call to undefined function displayAllProducts() in /home/ubuntu/workspace/cst336/labs/lab6/loginProcess.php on line 40
+[09-Jul-2018 00:55:50 UTC] PHP Stack trace:
+[09-Jul-2018 00:55:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/loginProcess.php:0
+[09-Jul-2018 00:57:52 UTC] PHP Fatal error:  Call to undefined function displayAllProducts() in /home/ubuntu/workspace/cst336/labs/lab6/loginProcess.php on line 40
+[09-Jul-2018 00:57:52 UTC] PHP Stack trace:
+[09-Jul-2018 00:57:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/loginProcess.php:0
+[09-Jul-2018 00:58:33 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab6/admin.php on line 20
+[09-Jul-2018 00:58:33 UTC] PHP Stack trace:
+[09-Jul-2018 00:58:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/admin.php:0
+[09-Jul-2018 00:58:33 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/cst336/labs/lab6/admin.php:28
+[09-Jul-2018 01:00:41 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab6/admin.php on line 20
+[09-Jul-2018 01:00:41 UTC] PHP Stack trace:
+[09-Jul-2018 01:00:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/admin.php:0
+[09-Jul-2018 01:00:41 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/cst336/labs/lab6/admin.php:30
+[09-Jul-2018 01:01:38 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab6/admin.php on line 20
+[09-Jul-2018 01:01:38 UTC] PHP Stack trace:
+[09-Jul-2018 01:01:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/admin.php:0
+[09-Jul-2018 01:01:38 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/cst336/labs/lab6/admin.php:62
+[09-Jul-2018 01:02:52 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab6/admin.php on line 20
+[09-Jul-2018 01:02:52 UTC] PHP Stack trace:
+[09-Jul-2018 01:02:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/admin.php:0
+[09-Jul-2018 01:02:52 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/cst336/labs/lab6/admin.php:57
+[09-Jul-2018 01:05:33 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab6/admin.php on line 20
+[09-Jul-2018 01:05:33 UTC] PHP Stack trace:
+[09-Jul-2018 01:05:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/admin.php:0
+[09-Jul-2018 01:05:33 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/cst336/labs/lab6/admin.php:57
+[09-Jul-2018 01:05:46 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab6/admin.php on line 20
+[09-Jul-2018 01:05:46 UTC] PHP Stack trace:
+[09-Jul-2018 01:05:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/admin.php:0
+[09-Jul-2018 01:05:46 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/cst336/labs/lab6/admin.php:57
+[09-Jul-2018 01:06:50 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab6/admin.php on line 20
+[09-Jul-2018 01:06:50 UTC] PHP Stack trace:
+[09-Jul-2018 01:06:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/admin.php:0
+[09-Jul-2018 01:06:50 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/cst336/labs/lab6/admin.php:57
+[09-Jul-2018 01:07:10 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab6/admin.php on line 20
+[09-Jul-2018 01:07:10 UTC] PHP Stack trace:
+[09-Jul-2018 01:07:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/admin.php:0
+[09-Jul-2018 01:07:10 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/cst336/labs/lab6/admin.php:57
+[09-Jul-2018 01:07:36 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab6/admin.php on line 20
+[09-Jul-2018 01:07:36 UTC] PHP Stack trace:
+[09-Jul-2018 01:07:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/admin.php:0
+[09-Jul-2018 01:07:36 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/cst336/labs/lab6/admin.php:57
+[09-Jul-2018 01:08:31 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab6/admin.php on line 20
+[09-Jul-2018 01:08:31 UTC] PHP Stack trace:
+[09-Jul-2018 01:08:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/admin.php:0
+[09-Jul-2018 01:08:31 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/cst336/labs/lab6/admin.php:57
+[09-Jul-2018 01:09:51 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab6/admin.php on line 20
+[09-Jul-2018 01:09:51 UTC] PHP Stack trace:
+[09-Jul-2018 01:09:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/admin.php:0
+[09-Jul-2018 01:09:51 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/cst336/labs/lab6/admin.php:57
+[09-Jul-2018 01:09:59 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab6/admin.php on line 20
+[09-Jul-2018 01:09:59 UTC] PHP Stack trace:
+[09-Jul-2018 01:09:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/admin.php:0
+[09-Jul-2018 01:09:59 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/cst336/labs/lab6/admin.php:57
+[09-Jul-2018 01:15:33 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab6/admin.php on line 20
+[09-Jul-2018 01:15:33 UTC] PHP Stack trace:
+[09-Jul-2018 01:15:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/admin.php:0
+[09-Jul-2018 01:15:33 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/cst336/labs/lab6/admin.php:57
+[09-Jul-2018 03:50:57 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab6/admin.php on line 20
+[09-Jul-2018 03:50:57 UTC] PHP Stack trace:
+[09-Jul-2018 03:50:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/admin.php:0
+[09-Jul-2018 03:50:57 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/cst336/labs/lab6/admin.php:57
+[09-Jul-2018 03:51:13 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab6/admin.php on line 20
+[09-Jul-2018 03:51:13 UTC] PHP Stack trace:
+[09-Jul-2018 03:51:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/admin.php:0
+[09-Jul-2018 03:51:13 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/cst336/labs/lab6/admin.php:57
+[09-Jul-2018 03:57:27 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/labs/lab6/admin.php on line 11
+[09-Jul-2018 03:57:27 UTC] PHP Stack trace:
+[09-Jul-2018 03:57:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/admin.php:0
+[09-Jul-2018 04:21:29 UTC] PHP Fatal error:  Call to undefined function getCategories() in /home/ubuntu/workspace/cst336/labs/lab6/addProduct.php on line 29
+[09-Jul-2018 04:21:29 UTC] PHP Stack trace:
+[09-Jul-2018 04:21:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/addProduct.php:0
+[09-Jul-2018 04:23:20 UTC] PHP Fatal error:  Call to undefined function getCategories() in /home/ubuntu/workspace/cst336/labs/lab6/addProduct.php on line 29
+[09-Jul-2018 04:23:20 UTC] PHP Stack trace:
+[09-Jul-2018 04:23:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/addProduct.php:0
+[09-Jul-2018 04:25:23 UTC] PHP Fatal error:  Call to undefined function getCategories() in /home/ubuntu/workspace/cst336/labs/lab6/addProduct.php on line 29
+[09-Jul-2018 04:25:23 UTC] PHP Stack trace:
+[09-Jul-2018 04:25:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/addProduct.php:0
+[09-Jul-2018 04:33:10 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab6/addProduct.php on line 9
+[09-Jul-2018 04:33:10 UTC] PHP Stack trace:
+[09-Jul-2018 04:33:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/addProduct.php:0
+[09-Jul-2018 04:33:10 UTC] PHP   2. getCategories() /home/ubuntu/workspace/cst336/labs/lab6/addProduct.php:49
+[09-Jul-2018 04:47:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'productDescription' cannot be null' in /home/ubuntu/workspace/cst336/labs/lab6/addProduct.php:42
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab6/addProduct.php(42): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab6/addProduct.php on line 42
+[12-Jul-2018 19:19:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'productDescription' cannot be null' in /home/ubuntu/workspace/cst336/labs/lab6/addProduct.php:42
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab6/addProduct.php(42): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab6/addProduct.php on line 42
+[12-Jul-2018 19:20:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'productDescription' cannot be null' in /home/ubuntu/workspace/cst336/labs/lab6/addProduct.php:42
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab6/addProduct.php(42): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab6/addProduct.php on line 42
+[12-Jul-2018 19:21:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'productDescription' cannot be null' in /home/ubuntu/workspace/cst336/labs/lab6/addProduct.php:42
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab6/addProduct.php(42): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab6/addProduct.php on line 42
+[12-Jul-2018 19:24:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'productDescription' cannot be null' in /home/ubuntu/workspace/cst336/labs/lab6/addProduct.php:45
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab6/addProduct.php(45): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab6/addProduct.php on line 45
+[12-Jul-2018 19:24:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'productDescription' cannot be null' in /home/ubuntu/workspace/cst336/labs/lab6/addProduct.php:45
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab6/addProduct.php(45): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab6/addProduct.php on line 45
+[12-Jul-2018 19:26:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'price' cannot be null' in /home/ubuntu/workspace/cst336/labs/lab6/addProduct.php:45
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab6/addProduct.php(45): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab6/addProduct.php on line 45
+[12-Jul-2018 19:57:34 UTC] PHP Fatal error:  Call to undefined function getCategories() in /home/ubuntu/workspace/cst336/labs/lab6/updateProduct.php on line 37
+[12-Jul-2018 19:57:34 UTC] PHP Stack trace:
+[12-Jul-2018 19:57:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/updateProduct.php:0
+[12-Jul-2018 20:05:39 UTC] PHP Fatal error:  Call to undefined function getCategories() in /home/ubuntu/workspace/cst336/labs/lab6/updateProduct.php on line 54
+[12-Jul-2018 20:05:39 UTC] PHP Stack trace:
+[12-Jul-2018 20:05:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/updateProduct.php:0
+[12-Jul-2018 20:13:12 UTC] PHP Parse error:  syntax error, unexpected '$sql' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/cst336/labs/lab6/updateProduct.php on line 27
+[12-Jul-2018 20:18:35 UTC] PHP Parse error:  syntax error, unexpected '$sql' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/cst336/labs/lab6/updateProduct.php on line 27
+[12-Jul-2018 20:18:49 UTC] PHP Parse error:  syntax error, unexpected '$sql' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/cst336/labs/lab6/updateProduct.php on line 27
+[12-Jul-2018 21:03:26 UTC] PHP Fatal error:  Call to undefined function session_sart() in /home/ubuntu/workspace/cst336/labs/lab6/logout.php on line 2
+[12-Jul-2018 21:03:26 UTC] PHP Stack trace:
+[12-Jul-2018 21:03:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/logout.php:0

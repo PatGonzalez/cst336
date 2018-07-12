@@ -1,5 +1,9 @@
-<?php
+<!--Lab 6-->
+<!--Patrick Gonzalez-->
+<!--7/8/28-->
 
+<?php
+    // lesson 2.2
     session_start();
     
     include 'dbConnection.php';
@@ -16,7 +20,7 @@
             AND password = :password";
             
     $np = array();
-    $np[":username"] = $usernmae;
+    $np[":username"] = $username;
     $np[":password"] = $password;
     
     $stmt = $conn->prepare($sql);
@@ -25,10 +29,12 @@
     
     if(empty($record)){
         $_SESSION['incorrect'] = true;
-        header("Location:index.php");
+        header("Location:login.php");
     }else{
         $_SESSION['incorrect'] = false;
         $_SESSION['adminName'] = $record['firstName'] . " " . $record['lastName'];
         header("Location:admin.php");
     }
+    
+    
 ?>
