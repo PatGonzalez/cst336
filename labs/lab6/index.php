@@ -2,11 +2,6 @@
 <!--Patrick Gonzalez-->
 <!--7/8/28-->
 
-<?php
-    session_start();
-?>
-
-
 <!DOCTYPE html>
 <html>
 
@@ -19,7 +14,7 @@
         <!--Font style-->
         <link href="https://fonts.googleapis.com/css?family=Passion+One" rel="stylesheet">
         
-        <!--<img src="img/storeShelf.jpg">-->
+  
     </head>
 <!-- closing head -->
 
@@ -31,7 +26,7 @@
             <h1>Ottermart Admin Page</h1>
             
             <!--lesson 2.1-->
-            <form method="POST" action="login.php">
+            <form action="login.php">
                 
                 <input type="submit" class='btn btn-primary' name="submitForm" value="Login!"/>
                 
