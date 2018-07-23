@@ -3,6 +3,12 @@ session_start();
 
 function displayQuiz(){
     //displays Quiz if session is active
+    // lesson 4.1
+    if(isset($_SESSION['username'])){
+        include 'quiz.php';
+    }else{
+        header("Location: login.php");
+    }
 
 }
 ?>
@@ -12,6 +18,7 @@ function displayQuiz(){
     <head>
         <title>CSUMB Online Quiz</title>
         <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     </head>
     
     <body>
@@ -23,8 +30,18 @@ function displayQuiz(){
         
         <div class="content-wrapper">
             <!--Display Quiz Content-->
+            <!--Lesson 4.2-->
             <div id="quiz">
-            
+                <h1>Quiz</h1>
+                <?=displayQuiz()?>
+                
+                <div id="feedback">
+                    <h2>Your final score is <span id="score">score</span></h2>
+                    
+                    You've taken this quiz <strong id="times"></strong> time(s). <br/><br/>
+                    
+                    Your average score was <strong id="average"></strong>
+                </div>
             </div>
             <div id="mascot">
                 <img src="img/mascot.png" alt="CSUMB Mascot" width="350" />
@@ -32,6 +49,7 @@ function displayQuiz(){
         </div>
         
         <!--Javascript files-->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>-->
+        <script type="text/javascript" src="js/gradeQuiz.js"></script>
     </body>
 </html>

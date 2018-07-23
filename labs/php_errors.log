@@ -358,3 +358,13 @@ Stack trace:
 [12-Jul-2018 21:03:26 UTC] PHP Fatal error:  Call to undefined function session_sart() in /home/ubuntu/workspace/cst336/labs/lab6/logout.php on line 2
 [12-Jul-2018 21:03:26 UTC] PHP Stack trace:
 [12-Jul-2018 21:03:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/logout.php:0
+[23-Jul-2018 21:03:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'username' cannot be null' in /home/ubuntu/workspace/cst336/labs/csumbQuiz/submitScores.php:22
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/csumbQuiz/submitScores.php(22): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/csumbQuiz/submitScores.php on line 22
+[23-Jul-2018 21:05:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'username' cannot be null' in /home/ubuntu/workspace/cst336/labs/csumbQuiz/submitScores.php:22
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/csumbQuiz/submitScores.php(22): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/csumbQuiz/submitScores.php on line 22

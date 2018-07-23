@@ -5,7 +5,7 @@ function getDBConnection() {
     //C9 db info
     $host = "localhost";
     $dbName = "csumb_quiz";
-    $username = getenv("C9_USER");
+    $username = "root";//getenv("C9_USER");
     $password = "";
     
     //when connecting from Heroku

@@ -26,6 +26,8 @@ echo "Patrick Gonzalez's CST336 Internet Programming";
 <a href="labs/lab6">Lab 6</a>
 <br/>
 <a href="labs/hangman">Lab 7: Hangman</a>
+<br/>
+<a href="labs/csumbQuiz">Lab 8: CSUMB Quiz</a>
 
 <!--Homework-->
 <h1>Homework</h1>
