@@ -54,10 +54,10 @@ function placeMonkey(){
 	monkey_01.css('margin-left', x2);
 	monkey_01.css('margin-top', '350px');
 }
-
-$("monkey_01").mousedown(function(){
+/* 
+$("#monkey_01").mousedown(function(){s
 	hitMonkey();
-});
+}); */
 
   /* Have the monkey dissappear when it is clicked on, and start over from a new position. */
 function hitMonkey(){
