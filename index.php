@@ -40,6 +40,10 @@ echo "Patrick Gonzalez's CST336 Internet Programming";
 <br/>
 <a href="hw/hw4/">Hw 4</a>
 
+<!--Homework-->
+<h1>Project</h1>
+
+<a href="project_ajax">Final Project</a></a>
 
 </body>
 </html>
