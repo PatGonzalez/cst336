@@ -1,0 +1,75 @@
+[28-Jul-2018 18:32:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/cst336/final/practice/quiz/verifyUser.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final/practice/quiz/verifyUser.php(12): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final/practice/quiz/verifyUser.php on line 12
+[28-Jul-2018 18:33:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/cst336/final/practice/quiz/verifyUser.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final/practice/quiz/verifyUser.php(12): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final/practice/quiz/verifyUser.php on line 12
+[28-Jul-2018 18:35:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final_exam.prectice1_quiz' doesn't exist' in /home/ubuntu/workspace/cst336/final/practice/quiz/verifyUser.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final/practice/quiz/verifyUser.php(12): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final/practice/quiz/verifyUser.php on line 12
+[29-Jul-2018 23:59:58 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/cst336/final/practice/online_quiz/index.php on line 5
+[30-Jul-2018 00:01:29 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/cst336/final/practice/online_quiz/index.php on line 5
+[30-Jul-2018 00:13:39 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/cst336/final/practice/online_quiz/index.php on line 5
+[30-Jul-2018 21:49:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final_exam.prectice1_quiz' doesn't exist' in /home/ubuntu/workspace/cst336/final/practice/online_quiz/verifyUser.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final/practice/online_quiz/verifyUser.php(12): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final/practice/online_quiz/verifyUser.php on line 12
+[30-Jul-2018 21:50:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final_exam.final_exam' doesn't exist' in /home/ubuntu/workspace/cst336/final/practice/online_quiz/verifyUser.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final/practice/online_quiz/verifyUser.php(12): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final/practice/online_quiz/verifyUser.php on line 12
+[30-Jul-2018 21:56:56 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/final/practice/online_quiz/verifyUser.php on line 10
+[30-Jul-2018 21:56:56 UTC] PHP Stack trace:
+[30-Jul-2018 21:56:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/practice/online_quiz/verifyUser.php:0
+[30-Jul-2018 21:57:59 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/final/practice/online_quiz/verifyUser.php on line 10
+[30-Jul-2018 21:57:59 UTC] PHP Stack trace:
+[30-Jul-2018 21:57:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/practice/online_quiz/verifyUser.php:0
+[30-Jul-2018 22:02:21 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/final/practice/online_quiz/verifyUser.php on line 10
+[30-Jul-2018 22:02:21 UTC] PHP Stack trace:
+[30-Jul-2018 22:02:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/practice/online_quiz/verifyUser.php:0
+[30-Jul-2018 22:02:34 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/final/practice/online_quiz/verifyUser.php on line 10
+[30-Jul-2018 22:02:34 UTC] PHP Stack trace:
+[30-Jul-2018 22:02:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/practice/online_quiz/verifyUser.php:0
+[01-Aug-2018 16:15:46 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/final/practice/online_quiz/verifyUser.php on line 10
+[01-Aug-2018 16:15:46 UTC] PHP Stack trace:
+[01-Aug-2018 16:15:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/practice/online_quiz/verifyUser.php:0
+[03-Aug-2018 17:16:05 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336/final/practice/online_quiz/connect.php on line 34
+[03-Aug-2018 17:16:05 UTC] PHP Stack trace:
+[03-Aug-2018 17:16:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/practice/online_quiz/verifyUser.php:0
+[03-Aug-2018 17:17:05 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336/final/practice/online_quiz/connect.php on line 34
+[03-Aug-2018 17:17:05 UTC] PHP Stack trace:
+[03-Aug-2018 17:17:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/practice/online_quiz/verifyUser.php:0
+[03-Aug-2018 17:37:20 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336/final/practice/online_quiz/connect.php on line 34
+[03-Aug-2018 17:37:20 UTC] PHP Stack trace:
+[03-Aug-2018 17:37:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/practice/online_quiz/submitScores.php:0
+[03-Aug-2018 17:43:17 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336/final/practice/online_quiz/connect.php on line 34
+[03-Aug-2018 17:43:17 UTC] PHP Stack trace:
+[03-Aug-2018 17:43:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/practice/online_quiz/verifyUser.php:0
+[03-Aug-2018 17:44:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final_exam.scores' doesn't exist' in /home/ubuntu/workspace/cst336/final/practice/online_quiz/submitScores.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final/practice/online_quiz/submitScores.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final/practice/online_quiz/submitScores.php on line 23
+[03-Aug-2018 18:09:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final_exam.scores' doesn't exist' in /home/ubuntu/workspace/cst336/final/practice/online_quiz/submitScores.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final/practice/online_quiz/submitScores.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final/practice/online_quiz/submitScores.php on line 23
+[03-Aug-2018 18:58:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final_exam.scores' doesn't exist' in /home/ubuntu/workspace/cst336/final/practice/online_quiz/submitScores.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final/practice/online_quiz/submitScores.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final/practice/online_quiz/submitScores.php on line 23
+[03-Aug-2018 19:08:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/cst336/final/practice/online_quiz/submitScores.php:24
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final/practice/online_quiz/submitScores.php(24): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final/practice/online_quiz/submitScores.php on line 24

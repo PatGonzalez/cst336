@@ -4,7 +4,7 @@ include 'connect.php';
 $connect = getDBConnection();
 //Checking credentials in database
 // Lesson 3.2
-$sql = "SELECT * FROM prectice1_quiz
+$sql = "SELECT * FROM practice1_quiz
 		WHERE email = :email";
 		
 $stmt = $connect->prepare($sql);
