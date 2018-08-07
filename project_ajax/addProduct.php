@@ -47,6 +47,7 @@
         $namedParameters[':courseId'] = $courseId;
         $statement = $conn->prepare($sql);
         $statement->execute($namedParameters);
+        echo "<h4>Product " . $itemName . " Added!</h4>";
     }
 ?>
 
